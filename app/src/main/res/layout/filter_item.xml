@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView
+            android:id="@+id/parent_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp"
+            app:cardCornerRadius="15dp">
+
+        <ImageView
+                android:id="@+id/filter_image"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:scaleType="centerCrop"
+                android:background="@drawable/ic_launcher_background"
+                android:src="@drawable/ic_launcher_foreground" />
+
+    </android.support.v7.widget.CardView>
+
+
+    <TextView
+            android:id="@+id/filtername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="93dp"
+            android:layout_marginLeft="13dp"
+            android:textColor="#fff"
+            android:translationZ="2dp"
+            android:text="filternname"
+    />
+</RelativeLayout>
